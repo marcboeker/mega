@@ -1,0 +1,14 @@
+env: dev
+
+db:
+  debugging: false
+  driverName: sqlite3
+  dataSourceName: ":memory:?_foreign_keys=on"
+
+server:
+  logging: false
+  address: "localhost:8080"
+  recoveryMiddleware: true
+  enablePlayground: true
+  playgroundPath: "/playground"
+  queryPath: "/query"
