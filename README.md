@@ -32,7 +32,7 @@ I've tried [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13
 
 ### Services to the rescue
 
-All my application logic is contained in different [services](https://github.com/marcboeker/tree/services). Each service provides an [interface](https://github.com/marcboeker/tree/services/user/service.go) to describe its API. Each service should but must not contain a [test suite](https://github.com/marcboeker/tree/services/user/service.go).
+All my application logic is contained in different [services](https://github.com/marcboeker/mega/tree/master/service). Each service provides an [interface](https://github.com/marcboeker/mega/tree/master/service/user/service.go) to describe its API. Each service should but must not contain a [test suite](https://github.com/marcboeker/mega/tree/master/service/user/service_test.go).
 
 If you have a closer look at a service, you could see the following components:
 
